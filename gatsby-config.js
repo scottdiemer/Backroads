@@ -5,7 +5,5 @@
  */
 
 module.exports = {
-  plugins: [
-    
-  ]
+  plugins: [`gatsby-plugin-styled-components`],
 }
