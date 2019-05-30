@@ -12,7 +12,7 @@ const Services = () => {
           return (
             <article key={index} className={styles.service}>
               <span>{item.icon}</span>
-              <h4>item.title</h4>
+              <h4>{item.title}</h4>
               <p>{item.text}</p>
             </article>
           )
